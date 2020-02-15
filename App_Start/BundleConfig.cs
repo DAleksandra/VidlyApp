@@ -8,7 +8,7 @@ namespace Vidly
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/lib").Include(
-                        "~/Scripts/jquery-3.4.1.js",
+                        "~/Scripts/jquery-{version}.js",
                         "~/Scripts/bootstrap.js",
                         "~/scripts/bootbox.js",
                         "~/Scripts/respond.js",

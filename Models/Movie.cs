@@ -24,6 +24,8 @@ namespace Vidly.Models
         [Min1InStock]
         public byte Stock { get; set; }
 
+        public byte NumberAvailable { get; set; }
+
 
     }
 
